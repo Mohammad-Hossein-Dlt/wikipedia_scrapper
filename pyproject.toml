@@ -1,0 +1,15 @@
+[project]
+name = "advance"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "pipdeptree>=2.35.1",
+    "requests>=2.33.1",
+]
+
+[[tool.uv.index]]
+url = "https://repo.hmirror.ir/python/simple"
+
+[[tool.uv.index]]
+url = "https://mirror-pypi.runflare.com/simple"
